@@ -86,51 +86,25 @@ export default function MainParallax() {
             onClick={() => parallax.current.scrollTo(0)}>
             <img src={url('clients-main')} style={{ width: '40%' }} />
             </ParallaxLayer>
-            <div style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        pointerEvents: 'none',
-                    }}
-            >
-                <ParallaxLayer
-                    offset={0}
-                    speed={0.2}
-                    style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        pointerEvents: 'none',
-                    }}>
-                    <div style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            pointerEvents: 'none',
-                        }}
-                    >
-                        <h1 className={styles.spaceTextMain}>WEB | APP | GAME</h1>
-                        <h1 className={styles.spaceTextMain}>DEVELOPMENT & DESIGNS</h1>
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer
-                    offset={0}
-                    speed={0.2}
-                    style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'left',
-                        pointerEvents: 'none',
-                    }}>
+            <ParallaxLayer offset={0} speed={0.2} className="flex justify-center flex-wrap-reverse">
+                <div className="flex flex-col justify-center">
                     <div className={styles.bitmojiSpaceContainer}>
-                        <p className={styles.bitmojiSpaceText} style={{position: 'absolute', left: '15rem'}}>Hi, I'm Matt</p>
-                        <img className={styles.bitmojiSpace} src="/bitmoji/bitmoji-space.svg"/>
+                        <div className={styles.bitmojiSpaceText}>
+                            <p className="absolute text-xl left-28 top-10 md:left-52 md:text-3xl md:top-12">Hi, I'm Matt</p>
+                        </div>
+                        <div className={styles.bitmojiSpace}>
+                            <img className="w-7/12 md:w-full" src="/bitmoji/bitmoji-space.svg"/>
+                        </div>
                     </div>
-                </ParallaxLayer>
-            </div>
+                </div>
+                <div className="flex flex-col items-center justify-end text-3xl md:text-5xl lg:text-7xl xl:justify-center">
+                    <h1 className="text-white">WEB | APP | GAME</h1>
+                    <h1 className="mt-1 text-white">DEVELOPMENT & DESIGNS</h1>
+                </div>
+            </ParallaxLayer>
             <ParallaxLayer 
                 offset={0.32}
-                speed={-0.1} 
+                speed={0.6} 
                 style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -141,7 +115,7 @@ export default function MainParallax() {
             </ParallaxLayer>
             <ParallaxLayer 
                 offset={0.43}
-                speed={-0.1} 
+                speed={0.6} 
                 style={{
                     display: 'flex',
                     alignItems: 'center',

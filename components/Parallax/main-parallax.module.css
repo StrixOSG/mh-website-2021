@@ -5,18 +5,12 @@
 .bitmojiSpaceText {
     transform: rotate(-20deg);
     color: white;
+    font-family: 'Chaparral Pro';
     font-size: 1.8rem;
 }
 
 .bitmojiSpaceContainer {
     animation: MoveUpDown 3s ease-in-out infinite;
-}
-
-.spaceTextMain {
-    margin: 0;
-    color: white;
-    font-family: 'Herlyna Sans Serif';
-    font-size: 5rem;
 }
 
 @keyframes MoveUpDown {
