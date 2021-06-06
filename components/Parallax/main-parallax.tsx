@@ -1,5 +1,6 @@
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
 import React, { useRef } from "react";
+import SkillsParallax from './skills-parallax';
 import WelcomeParallax from './welcome-parallax';
 
 const url = (name: string, wrap = false) =>
@@ -15,6 +16,7 @@ export default function MainParallax() {
             <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#B1EDE8' }} />
             <ParallaxLayer offset={0} speed={0} factor={3} style={{ backgroundImage: url('stars', true), backgroundSize: 'cover' }}/>
             <WelcomeParallax></WelcomeParallax>
+            <SkillsParallax></SkillsParallax>
         </Parallax>
     )
 }

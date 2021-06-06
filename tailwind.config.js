@@ -5,6 +5,13 @@ module.exports = {
     fontFamily: {
       'sans': ['"Herlyna Sans Serif"', 'ui-sans-serif', 'system-ui'],
       'serif': ['"Chaparral Pro"', 'ui-serif', 'Georgia']
+    },
+    extend: {
+      colors: {
+        'red': '#FF6978',
+        'purple': '#340068',
+        'teal': '#65AFA9'
+      }
     }
   },
   variants: {

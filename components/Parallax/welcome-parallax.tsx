@@ -1,6 +1,6 @@
 import { ParallaxLayer } from '@react-spring/parallax';
 import React from "react";
-import styles from './main-parallax.module.css';
+import styles from './welcome-parallax.module.css';
 
 export default function WelcomeParallax() {
     return (
