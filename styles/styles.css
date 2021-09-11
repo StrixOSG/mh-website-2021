@@ -15,7 +15,3 @@ body {
 *:before {
   box-sizing: border-box;
 }
-
-.swiper-wrapper{
-  padding-bottom: 60px;
-}
