@@ -1,6 +1,7 @@
 import { ParallaxLayer } from '@react-spring/parallax';
 import React from "react";
 import styles from './skills-parallax.module.css';
+import Image from 'next/image';
 
 export default function SkillsParallax() {
     return (
@@ -16,6 +17,14 @@ export default function SkillsParallax() {
                         <div className="mt-4 text-xl sm:text-4xl text-gray-600">
                             <p>Development</p>
                             <p>Experience</p>
+                        </div>
+                        <div className="mt-6 font-serif text-xl sm:text-3xl">
+                            <p className="text-red">Languages</p>
+                            <div className="grid grid-cols-5 justify-center items-center px-2">
+                                <div className="p-2">
+                                    <Image src="/icons/logos/blender-2.svg" width="30rem" height="30rem"></Image>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="bg-white rounded-md h-96 w-72 mt-4 md:mt-0">

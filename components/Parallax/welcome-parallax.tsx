@@ -9,10 +9,10 @@ export default function WelcomeParallax() {
                 <div className="flex flex-col justify-center order-2 items-center mt-16 xl:mt-0 xl:order-1 xl:mr-32">
                     <div className={styles.bitmojiSpaceContainer}>
                         <div className={styles.bitmojiSpaceText}>
-                            <p className="absolute text-xl left-28 top-10 xl:left-52 xl:text-3xl xl:top-12">Hi, I'm Matt</p>
+                            <p className="absolute font-serif text-xl left-28 top-10 xl:left-52 xl:text-3xl xl:top-12">Hi, I'm Matt</p>
                         </div>
                         <div className={styles.bitmojiSpace}>
-                            <img className="w-7/12 xl:w-full" src="/bitmoji/bitmoji-space.svg"/>
+                            <img className="w-7/12 xl:w-full" src="/bitmoji/bitmoji-space.svg" />
                         </div>
                     </div>
                 </div>

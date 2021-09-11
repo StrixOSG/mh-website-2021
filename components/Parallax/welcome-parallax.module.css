@@ -1,23 +1,25 @@
 .bitmojiSpace {
-    transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 
 .bitmojiSpaceText {
-    transform: rotate(-20deg);
-    color: white;
-    font-family: 'Chaparral Pro';
-    font-size: 1.8rem;
+  transform: rotate(-20deg);
+  color: white;
+  font-size: 1.8rem;
 }
 
 .bitmojiSpaceContainer {
-    animation: MoveUpDown 3s ease-in-out infinite;
+  animation: MoveUpDown 3s ease-in-out infinite;
 }
 
 @keyframes MoveUpDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-25px);
-    }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-25px);
+  }
 }
