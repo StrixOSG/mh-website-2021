@@ -10,7 +10,7 @@ export default function SkillsDesign() {
                 <p className="font-display">Design & General</p>
                 <p className="font-display">Experience</p>
                 <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
-                    <p className="text-teal mb-2">Tools</p>
+                    <p className=" mb-4">Tools</p>
                     <div className="grid grid-cols-5 justify-center items-center px-6">
                         <Icon iconPath={IconPath.aftereffects}></Icon>
                         <Icon iconPath={IconPath.illustrator}></Icon>
@@ -22,7 +22,7 @@ export default function SkillsDesign() {
                     </div>
                 </div>
                 <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
-                    <p className="text-teal mb-2">Skills & Interests</p>
+                    <p className=" mb-4">Skills & Interests</p>
                     <ul className="list-disc text-lg text-left ml-10">
                         <li>Full stack dev, UX, AR</li>
                         <li>Learning new tech</li>

@@ -10,7 +10,7 @@ export default function SkillsDevelopment() {
                 <p className="font-display">Development</p>
                 <p className="font-display">Experience</p>
                 <div className="mt-6 text-2xl sm:text-3xl">
-                    <p className="text-purple mb-2">Languages</p>
+                    <p className="mb-4">Languages</p>
                     <div className="grid grid-cols-6 justify-center items-center px-6">
                         <Icon iconPath={IconPath.angular}></Icon>
                         <Icon iconPath={IconPath.c}></Icon>
@@ -32,7 +32,7 @@ export default function SkillsDevelopment() {
                     </div>
                 </div>
                 <div className="my-6 mb-4 text-2xl sm:text-3xl">
-                    <p className="text-purple mb-2">Tools</p>
+                    <p className="mb-4">Tools</p>
                     <div className="grid grid-cols-5 justify-center items-center px-6">
                         <Icon iconPath={IconPath.aws}></Icon>
                         <Icon iconPath={IconPath.docker}></Icon>
