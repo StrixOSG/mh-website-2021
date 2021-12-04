@@ -3,8 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sans': ['"Herlyna Sans Serif"', 'ui-sans-serif', 'system-ui'],
-      'serif': ['"Chaparral Pro"', 'ui-serif', 'Georgia']
+      'sans': ['"Outfit"', 'ui-sans-serif', 'system-ui'],
+      'serif': ['"Bree Serif"', 'ui-serif', 'Georgia'],
+      'display': ['"Baloo Tamma 2"']
     },
     extend: {
       colors: {

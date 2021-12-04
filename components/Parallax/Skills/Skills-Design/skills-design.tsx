@@ -7,9 +7,9 @@ export default function SkillsDesign() {
         <div className="bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0">
             <div className="bg-teal rounded-t-md h-2"></div>
             <div className="py-4 text-3xl sm:text-4xl text-gray-600">
-                <p>Design & General</p>
-                <p>Experience</p>
-                <div className="font-serif text-2xl mt-2 sm:mt-6 sm:text-3xl">
+                <p className="font-display">Design & General</p>
+                <p className="font-display">Experience</p>
+                <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
                     <p className="text-teal mb-2">Tools</p>
                     <div className="grid grid-cols-5 justify-center items-center px-6">
                         <Icon iconPath={IconPath.aftereffects}></Icon>
@@ -21,7 +21,7 @@ export default function SkillsDesign() {
                         <Icon iconPath={IconPath.figma}></Icon>
                     </div>
                 </div>
-                <div className="font-serif text-2xl mt-2 sm:mt-6 sm:text-3xl">
+                <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
                     <p className="text-teal mb-2">Skills & Interests</p>
                     <ul className="list-disc text-lg text-left ml-10">
                         <li>Full stack dev, UX, AR</li>

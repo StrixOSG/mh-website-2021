@@ -7,6 +7,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Matthew Hamilton Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet" />
       </Head>
       <main>
         <MainParallax></MainParallax>

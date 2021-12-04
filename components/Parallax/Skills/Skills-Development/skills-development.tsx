@@ -7,9 +7,9 @@ export default function SkillsDevelopment() {
         <div className="bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0 md:mr-4">
             <div className="bg-purple rounded-t-md h-2"></div>
             <div className="py-4 text-3xl sm:text-4xl text-gray-600">
-                <p>Development</p>
-                <p>Experience</p>
-                <div className="mt-6 font-serif text-2xl sm:text-3xl">
+                <p className="font-display">Development</p>
+                <p className="font-display">Experience</p>
+                <div className="mt-6 text-2xl sm:text-3xl">
                     <p className="text-purple mb-2">Languages</p>
                     <div className="grid grid-cols-6 justify-center items-center px-6">
                         <Icon iconPath={IconPath.angular}></Icon>
@@ -31,7 +31,7 @@ export default function SkillsDevelopment() {
                         <Icon iconPath={IconPath.sass}></Icon>
                     </div>
                 </div>
-                <div className="my-6 mb-4 font-serif text-2xl sm:text-3xl">
+                <div className="my-6 mb-4 text-2xl sm:text-3xl">
                     <p className="text-purple mb-2">Tools</p>
                     <div className="grid grid-cols-5 justify-center items-center px-6">
                         <Icon iconPath={IconPath.aws}></Icon>

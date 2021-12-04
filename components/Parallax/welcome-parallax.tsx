@@ -9,7 +9,7 @@ export default function WelcomeParallax() {
                 <div className="flex flex-col justify-center order-2 items-center mt-16 xl:mt-0 xl:order-1 xl:mr-32">
                     <div className={styles.bitmojiSpaceContainer}>
                         <div className={styles.bitmojiSpaceText}>
-                            <p className="absolute font-serif text-xl left-28 top-10 xl:left-52 xl:text-3xl xl:top-12">Hi, I'm Matt</p>
+                            <p className="absolute text-xl left-28 top-10 xl:left-52 xl:text-3xl xl:top-12">Hi, I'm Matt</p>
                         </div>
                         <div className={styles.bitmojiSpace}>
                             <img className="w-7/12 xl:w-full" src="/bitmoji/bitmoji-space.svg" />
@@ -17,8 +17,8 @@ export default function WelcomeParallax() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-end text-center text-3xl order-1 xl:order-2 md:text-5xl xl:text-7xl xl:justify-center xl:mr-80">
-                    <h1 className="text-white">WEB | APP | GAME</h1>
-                    <h1 className="mt-1 text-white">DEVELOPMENT & DESIGN</h1>
+                    <h1 className="text-white font-display">WEB | APP | GAME</h1>
+                    <h1 className="mt-1 text-white font-display">DEVELOPMENT & DESIGN</h1>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer offset={0.43} speed={0.6} className="flex justify-end opacity-40">
