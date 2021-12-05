@@ -34,4 +34,8 @@ export enum IconPath {
     xd = '/icons/logos/tools/xd-plain.svg',
     yarn = '/icons/logos/tools/yarn-original.svg',
 
+    //Other Icons
+    wizard = '/icons/wizard.svg',
+    ar = '/icons/ar.svg'
+
 }

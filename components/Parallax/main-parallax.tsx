@@ -1,5 +1,6 @@
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
 import React, { useRef } from "react";
+import EducationParallax from './Education/education-parallax';
 import SkillsParallax from './Skills/skills-parallax';
 import WelcomeParallax from './welcome-parallax';
 
@@ -18,6 +19,7 @@ export default function MainParallax() {
             <ParallaxLayer offset={0} speed={0} factor={4} style={{ backgroundImage: url('stars', true), backgroundSize: 'cover' }} />
             <WelcomeParallax></WelcomeParallax>
             <SkillsParallax></SkillsParallax>
+            <EducationParallax></EducationParallax>
         </Parallax>
     )
 }
