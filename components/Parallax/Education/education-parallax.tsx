@@ -2,6 +2,7 @@ import { ParallaxLayer } from '@react-spring/parallax';
 import React from "react";
 import { IconPath } from '../../../constants/icon-path';
 import Icon from '../../Shared/icon';
+import styles from './education-parallax.module.css';
 
 export default function EducationParallax() {
     return (
@@ -10,13 +11,18 @@ export default function EducationParallax() {
                 <div className="flex justify-center items-center relative rounded-md bg-purple h-96 md:w-160 md:h-72 p-4 mx-2 z-10">
                     <img className="w-32 hidden md:block md:mx-6 md:w-48" src="/uofr-logo.png" />
                     <div className="flex flex-col space-y-4 justify-center items-center w-72 text-white z-10">
-                        <div className="flex justify-between items-center w-full">
+                        <div className="flex justify-between items-center w-60 md:w-full">
                             <p className="text-2xl">Bachelors in <br /> Computer Science</p>
                             <Icon iconPath={IconPath.wizard} width={50} height={50}></Icon>
                         </div>
-                        <div className="flex justify-between items-center w-full">
+                        <div className="flex justify-between items-center w-60 md:w-full">
                             <p className="text-2xl">Minor in <br /> Creative Tech</p>
-                            <Icon iconPath={IconPath.ar} width={50} height={50}></Icon>
+                            <div className="flex flex-col items-center justify-center">
+                                <div className={styles.cubeContainer}>
+                                    <Icon iconPath={IconPath.arCube} width={25} height={25}></Icon>
+                                </div>
+                                <Icon iconPath={IconPath.arStand} width={50} height={50}></Icon>
+                            </div>
                         </div>
                         <img className="w-32 md:hidden" src="/uofr-logo.png" />
                     </div>
