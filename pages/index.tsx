@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from "react";
+import Footer from '../components/Footer/footer';
 import MainParallax from '../components/Parallax/main-parallax';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <MainParallax></MainParallax>
+        <Footer></Footer>
       </main>
     </div>
   )

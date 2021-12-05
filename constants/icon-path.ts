@@ -24,7 +24,7 @@ export enum IconPath {
     blender = '/icons/logos/tools/blender-2.svg',
     docker = '/icons/logos/tools/docker-plain.svg',
     figma = '/icons/logos/tools/Figma-logo.svg',
-    github = '/icons/logos/tools/github-original.svg',
+    github = '/icons/logos/social/github.svg',
     heroku = '/icons/logos/tools/heroku-plain.svg',
     illustrator = '/icons/logos/tools/illustrator-plain.svg',
     photoshop = '/icons/logos/tools/photoshop-plain.svg',
@@ -33,6 +33,11 @@ export enum IconPath {
     webpack = '/icons/logos/tools/webpack-plain.svg',
     xd = '/icons/logos/tools/xd-plain.svg',
     yarn = '/icons/logos/tools/yarn-original.svg',
+
+    //Social
+    email = '/icons/logos/social/email.svg',
+    linkedIn = '/icons/logos/social/linkedin.svg',
+    twitter = '/icons/logos/social/twitter.svg',
 
     //Other Icons
     arCube = '/icons/ar-cube.svg',
