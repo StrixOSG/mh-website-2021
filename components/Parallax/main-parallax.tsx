@@ -2,6 +2,7 @@ import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
 import React, { useRef } from 'react';
 import Stars from '../Shared/Particles/Stars/stars';
 import EducationParallax from './Education/education-parallax';
+import ProjectsParallax from './Projects/projects-parallax';
 import SkillsParallax from './Skills/skills-parallax';
 import WelcomeParallax from './Welcome/welcome-parallax';
 
@@ -23,6 +24,7 @@ export default function MainParallax() {
             <WelcomeParallax></WelcomeParallax>
             <EducationParallax></EducationParallax>
             <SkillsParallax></SkillsParallax>
+            <ProjectsParallax></ProjectsParallax>
         </Parallax>
     )
 }

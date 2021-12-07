@@ -42,6 +42,9 @@ export enum IconPath {
     //Other Icons
     arCube = '/icons/ar-cube.svg',
     arStand = '/icons/ar-stand.svg',
+    memoryKPR = '/icons/logos/memorykpr.png',
     wizard = '/icons/wizard.svg',
+    arrowDown = '/icons/arrow-down-s-line.svg',
+    arrowRight = '/icons/arrow-right-s-line.svg'
 
 }

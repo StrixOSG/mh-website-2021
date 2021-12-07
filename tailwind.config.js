@@ -8,8 +8,12 @@ module.exports = {
       'display': ['"Baloo Tamma 2"']
     },
     extend: {
+      //https://www.tailwindshades.com/
       colors: {
+        //Red (#FF6978) - Step down (3)
+        'red-400': '#FF929D',
         'red': '#FF6978',
+        'red-600': '#FF5A6A',
         'purple': '#340068',
         'teal': '#65AFA9'
       },
