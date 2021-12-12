@@ -1,6 +1,5 @@
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       'sans': ['"Outfit"', 'ui-sans-serif', 'system-ui'],
@@ -8,14 +7,21 @@ module.exports = {
       'display': ['"Baloo Tamma 2"']
     },
     extend: {
-      //https://www.tailwindshades.com/
+      //https://www.tailwindshades.com/ - Step down (3)
       colors: {
-        //Red (#FF6978) - Step down (3)
+        'cadet-blue-400': '#80BDB8',
+        'cadet-blue': '#65AFA9',
+        'cadet-blue-600': '#5BAAA3',
+        'cadet-blue-700': '#54A29B',
+        'purple': '#340068',
         'red-400': '#FF929D',
         'red': '#FF6978',
         'red-600': '#FF5A6A',
-        'purple': '#340068',
-        'teal': '#65AFA9'
+        'sky-blue-400': '#D2E6F5',
+        'sky-blue': '#B1D4ED',
+        'sky-blue-600': '#A5CDEA',
+        'sky-blue-700': '#98C6E7',
+        'turquoise': '#B1EDE8'
       },
       width: {
         '112': '28rem',
@@ -31,9 +37,6 @@ module.exports = {
         '-34': '-8.5rem',
       }
     }
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }

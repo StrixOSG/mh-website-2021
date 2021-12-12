@@ -14,10 +14,10 @@ export default function MainParallax() {
     const parallax = useRef<IParallax>(null!)
     return (
         <Parallax ref={parallax} pages={4}>
-            <ParallaxLayer offset={0} speed={0} style={{ background: '#340068' }} />
-            <ParallaxLayer offset={1} speed={0} style={{ backgroundColor: '#FF6978' }} />
-            <ParallaxLayer offset={2} speed={0} style={{ background: '#B1D4ED' }} />
-            <ParallaxLayer offset={3} speed={0} style={{ backgroundColor: '#B1EDE8' }} />
+            <ParallaxLayer offset={0} speed={0} className="bg-purple" />
+            <ParallaxLayer offset={1} speed={0} className="bg-red" />
+            <ParallaxLayer offset={2} speed={0} className="bg-sky-blue" />
+            <ParallaxLayer offset={3} speed={0} className="bg-turquoise" />
             <ParallaxLayer offset={0} speed={0} factor={4} className='bg-transparent' >
                 <Stars></Stars>
             </ParallaxLayer>

@@ -5,7 +5,7 @@ import { IconPath } from '../../../../constants/icon-path';
 export default function SkillsDesign() {
     return (
         <div className="bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0">
-            <div className="bg-teal rounded-t-md h-2"></div>
+            <div className="bg-cadet-blue rounded-t-md h-2"></div>
             <div className="py-4 text-3xl sm:text-4xl text-gray-600">
                 <p className="font-display">Design & General</p>
                 <p className="font-display">Experience</p>

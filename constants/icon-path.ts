@@ -37,12 +37,14 @@ export enum IconPath {
     //Social
     email = '/icons/logos/social/email.svg',
     linkedIn = '/icons/logos/social/linkedin.svg',
+    reddit = '/icons/logos/social/reddit.svg',
     twitter = '/icons/logos/social/twitter.svg',
 
     //Other Icons
     arCube = '/icons/ar-cube.svg',
     arStand = '/icons/ar-stand.svg',
     memoryKPR = '/icons/logos/memorykpr.png',
+    urmaps = '/icons/logos/urmaps.jpg',
     wizard = '/icons/wizard.svg',
     arrowDown = '/icons/arrow-down-s-line.svg',
     arrowRight = '/icons/arrow-right-s-line.svg'
