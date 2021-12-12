@@ -35,10 +35,10 @@ export default function Project({ iconPath, title = 'test', description = 'test'
                         {description}
                     </p>
                     {
-                        learnMore && externalUrl === null && <button className="mt-4 bg-cadet-blue text-white w-28 rounded-md p-2 outline-none focus-none hover:bg-cadet-blue-700">Learn More</button>
+                        learnMore && externalUrl === null && <button className="mt-4 bg-red text-white w-28 rounded-md p-2 outline-none focus-none hover:bg-red-600">Learn More</button>
                     }
                     {
-                        learnMore && externalUrl !== null && <a className="mt-4 bg-cadet-blue text-white w-28 rounded-md p-2 outline-none focus-none hover:bg-cadet-blue-700" href={externalUrl} target="_blank" rel="noopener noreferrer" tabIndex={0} >Learn More</a>
+                        learnMore && externalUrl !== null && <a className="mt-4 bg-red text-white w-28 rounded-md p-2 outline-none focus-none hover:bg-red-600" href={externalUrl} target="_blank" rel="noopener noreferrer" tabIndex={0} >Learn More</a>
                     }
                 </div>
             </button>

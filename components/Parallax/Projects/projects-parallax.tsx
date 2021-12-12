@@ -7,11 +7,11 @@ import Project from './Project/project';
 export default function ProjectsParallax() {
     return (
         <ParallaxLayer offset={3} speed={1} className="flex justify-center items-center">
-            <div className="bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0">
-                <div className="bg-cadet-blue rounded-t-md h-2"></div>
-                <div className="flex flex-col justify-center py-4 text-gray-600 px-4 sm:px-8">
+            <div className="relative bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0 z-10">
+                <div className="bg-red rounded-t-md h-2"></div>
+                <div className="relative flex flex-col justify-center py-4 text-gray-600 px-4 sm:px-8 z-10">
                     <p className="font-display text-3xl sm:text-4xl">Projects & Work</p>
-                    <p>Curious to learn more? Check out my GitHub in the bottom right or shoot me an email.</p>
+                    <p>Curious to learn more? Check out my GitHub in the bottom right or shoot me a message.</p>
                     <ScrollContainer className="w-full space-y-8 h-80 mt-6">
                         <Project
                             iconPath={IconPath.memoryKPR}
@@ -32,6 +32,10 @@ export default function ProjectsParallax() {
                             description='Completed a UI redesign of Reddit based on best practices in my CS280 class with a friend. This was before Reddit had released their new UI and it turns out we were extremely close to what Reddit was thinking for their updated UI.'></Project>
                     </ScrollContainer>
                 </div>
+            </div>
+            <div className="absolute w-160 h-128 sm:h-112 z-0 mb-2">
+                <img className="absolute -top-10 right-10 sm:top-auto sm:bottom-24 sm:-right-32" src="/tree-branch-green.svg" />
+                <img className="absolute -top-20 right-28 w-24 sm:w-auto sm:top-auto sm:bottom-32 sm:right-2 sm:mb-1" src="/owls/owl-look-left-hidden-talon.svg" />
             </div>
         </ParallaxLayer>
     );
