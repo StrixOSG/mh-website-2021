@@ -11,8 +11,8 @@ export default function Project({ iconPath, title = 'test', description = 'test'
             <button onClick={() => setExpanded(true)} className="grid place-items-start w-full grid-cols-4 sm:grid-cols-6">
                 <Image className={`${iconStyle} col-span-1`} src={iconPath} width={40} height={40}></Image>
                 <div className="flex flex-col justify-center w-full col-span-3 sm:col-span-5">
-                    <div className="flex justify-center items-center">
-                        <p className="text-xl sm:text-2xl">{title}</p>
+                    <div className="flex items-center">
+                        <p className="text-xl text-left sm:text-2xl">{title}</p>
                         <span className="flex ml-auto">
                             <Image src={IconPath.arrowRight} width={40} height={40}></Image>
                         </span>
@@ -25,7 +25,7 @@ export default function Project({ iconPath, title = 'test', description = 'test'
             <button onClick={() => setExpanded(false)} className="grid place-items-start w-full grid-cols-4 sm:grid-cols-6">
                 <Image className={`col-span-1 ${iconStyle}`} src={iconPath} width={40} height={40}></Image>
                 <div className="flex flex-col justify-center w-full col-span-3 sm:col-span-5">
-                    <div className="flex justify-center items-center">
+                    <div className="flex items-center">
                         <p className="text-xl sm:text-2xl">{title}</p>
                         <span className="flex ml-auto" onClick={() => setExpanded(false)}>
                             <Image src={IconPath.arrowDown} width={40} height={40}></Image>
