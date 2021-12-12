@@ -1,4 +1,5 @@
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
+import Link from 'next/link';
 import React, { useRef } from 'react';
 import Stars from '../Shared/Particles/Stars/stars';
 import EducationParallax from './Education/education-parallax';
@@ -18,9 +19,6 @@ export default function MainParallax() {
             <ParallaxLayer offset={1} speed={0} className="bg-red" />
             <ParallaxLayer offset={2} speed={0} className="bg-turquoise" />
             <ParallaxLayer offset={3} speed={0} className="bg-sky-blue" />
-            <ParallaxLayer offset={3} speed={0}>
-                <img className="absolute -left-4 w-64 -bottom-10 sm:-bottom-16 sm:w-auto" src="/bitmoji/bitmoji-trapdoor.svg" />
-            </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0} factor={4} className='bg-transparent' >
                 <Stars></Stars>
             </ParallaxLayer>
@@ -28,7 +26,6 @@ export default function MainParallax() {
             <EducationParallax></EducationParallax>
             <SkillsParallax></SkillsParallax>
             <ProjectsParallax></ProjectsParallax>
-
         </Parallax>
     )
 }

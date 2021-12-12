@@ -1,4 +1,5 @@
 import { ParallaxLayer } from '@react-spring/parallax';
+import Link from 'next/link';
 import React from "react";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import { IconPath } from '../../../constants/icon-path';
@@ -37,6 +38,11 @@ export default function ProjectsParallax() {
                 <img className="absolute -top-10 right-10 sm:top-auto sm:bottom-24 sm:-right-32" src="/tree-branch-green.svg" />
                 <img className="absolute -top-20 right-28 w-24 sm:w-auto sm:top-auto sm:bottom-32 sm:right-2 sm:mb-1" src="/owls/owl-look-left-hidden-talon.svg" />
             </div>
+            <Link href="/secret-gaming-room">
+                <a>
+                    <img className="absolute -left-4 w-64 -bottom-10 sm:-bottom-16 sm:w-auto" src="/bitmoji/bitmoji-trapdoor.svg" />
+                </a>
+            </Link>
         </ParallaxLayer>
     );
 }
