@@ -28,7 +28,7 @@ export default function EducationParallax() {
                         </div>
                         <img className="w-32 md:hidden" src="/uofr-logo.png" />
                     </div>
-                    <img className="absolute -left-44 -bottom-4 sm:-left-56 h-112" src="/bitmoji/bitmoji-books.svg" />
+                    <img className="absolute -left-14 -bottom-1 h-64 sm:-left-18 sm:h-80" src="/bitmoji/bitmoji-books.svg" />
                     <img className="absolute -top-20 right-0 w-20 sm:-top-25 sm:w-24" src="/owls/owl-read-no-tail.svg" />
                 </div>
                 <div className="absolute h-96 w-96 md:w-160 md:h-72 z-0 mb-2">
