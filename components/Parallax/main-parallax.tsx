@@ -7,10 +7,6 @@ import ProjectsParallax from './Projects/projects-parallax';
 import SkillsParallax from './Skills/skills-parallax';
 import WelcomeParallax from './Welcome/welcome-parallax';
 
-const url = (name: string, wrap = false) =>
-    `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
-
-
 export default function MainParallax() {
     const parallax = useRef<IParallax>(null!)
     return (
@@ -19,7 +15,7 @@ export default function MainParallax() {
             <ParallaxLayer offset={1} speed={0} className="bg-red" />
             <ParallaxLayer offset={2} speed={0} className="bg-turquoise" />
             <ParallaxLayer offset={3} speed={0} className="bg-sky-blue" />
-            <ParallaxLayer offset={0} speed={0} factor={4} className='bg-transparent' >
+            <ParallaxLayer offset={0} speed={0} factor={3.2} className='bg-transparent' >
                 <Stars></Stars>
             </ParallaxLayer>
             <WelcomeParallax></WelcomeParallax>

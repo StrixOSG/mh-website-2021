@@ -21,10 +21,10 @@ export default function WelcomeParallax() {
                     <h1 className="mt-1 text-white font-display">DEVELOPMENT & DESIGN</h1>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0.43} speed={0.6} className="flex justify-end opacity-40">
+            <ParallaxLayer offset={0.5} speed={0.05} className="flex justify-end opacity-40">
                 <img src="/Cloud-2.svg" className="w-40 mt-16 md:mr-40 md:w-56" />
             </ParallaxLayer>
-            <ParallaxLayer offset={0.32} speed={0.6} className="flex justify-center opacity-40">
+            <ParallaxLayer offset={0.43} speed={0.05} className="flex justify-center opacity-40">
                 <img src="/Cloud-1.svg" className="w-40 mt-32 mr-40 md:w-56" />
             </ParallaxLayer>
         </div>
