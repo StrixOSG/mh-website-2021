@@ -6,12 +6,12 @@ export default function SkillsDevelopment() {
     return (
         <div className="bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0 md:mr-4">
             <div className="bg-purple rounded-t-md h-2"></div>
-            <div className="py-4 text-3xl sm:text-4xl text-gray-600">
-                <p className="font-display">Development</p>
-                <p className="font-display">Experience</p>
+            <div className="py-4 text-gray-600 text-3xl px-4 sm:text-4xl sm:px-8">
+                <p className="font-display text-center">Development</p>
+                <p className="font-display text-center">Experience</p>
                 <div className="mt-6 text-2xl sm:text-3xl">
                     <p className="mb-4">Languages</p>
-                    <div className="grid grid-cols-6 justify-center items-center px-6">
+                    <div className="grid grid-cols-6">
                         <Icon iconPath={IconPath.angular}></Icon>
                         <Icon iconPath={IconPath.c}></Icon>
                         <Icon iconPath={IconPath.cplusplus}></Icon>
@@ -33,7 +33,7 @@ export default function SkillsDevelopment() {
                 </div>
                 <div className="my-6 mb-4 text-2xl sm:text-3xl">
                     <p className="mb-4">Tools</p>
-                    <div className="grid grid-cols-5 justify-center items-center px-6">
+                    <div className="grid grid-cols-5 justify-center items-center">
                         <Icon iconPath={IconPath.aws}></Icon>
                         <Icon iconPath={IconPath.docker}></Icon>
                         <Icon iconPath={IconPath.github}></Icon>

@@ -12,7 +12,7 @@ export default function SkillsParallax() {
                     <img className={`${styles.owl} w-3/12 sm:w-2/12 lg:w-2/12 xl:w-5/12 mb-6`} src="/owls/owl-hover.svg" />
                     <img className="w-7/12 sm:w-5/12 lg:w-4/12 xl:w-full" src="/bitmoji/bitmoji-surprise.svg" />
                 </div>
-                <div className="text-center px-4 md:flex xl:justify-self-start">
+                <div className="text-left px-4 md:flex xl:justify-self-start">
                     <SkillsDevelopment></SkillsDevelopment>
                     <SkillsDesign></SkillsDesign>
                 </div>

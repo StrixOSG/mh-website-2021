@@ -12,7 +12,7 @@ export default function ProjectsParallax() {
                 <div className="flex flex-col justify-center py-4 text-gray-600 px-4 sm:px-8">
                     <p className="font-display text-3xl sm:text-4xl">Projects & Work</p>
                     <p>Curious to learn more? Check out my GitHub in the bottom right or shoot me an email.</p>
-                    <ScrollContainer className="w-full space-y-8 h-96 mt-6">
+                    <ScrollContainer className="w-full space-y-8 h-80 mt-6">
                         <Project
                             iconPath={IconPath.memoryKPR}
                             title='memoryKPR'
