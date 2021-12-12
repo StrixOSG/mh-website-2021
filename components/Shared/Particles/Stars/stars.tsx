@@ -476,7 +476,7 @@ export default function Stars() {
                         velocityRate: 1
                     }
                 },
-                detectRetina: true,
+                detectRetina: false,
                 pauseOnBlur: true,
                 pauseOnOutsideViewport: true,
             }}

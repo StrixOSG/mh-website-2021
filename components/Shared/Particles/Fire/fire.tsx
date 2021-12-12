@@ -80,7 +80,7 @@ export default function Fire({ className = "", id = "fire" }) {
                         resize: true
                     }
                 },
-                detectRetina: true,
+                detectRetina: false,
                 emitters: {
                     direction: "top",
                     rate: {
