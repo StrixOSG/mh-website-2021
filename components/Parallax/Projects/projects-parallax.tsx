@@ -9,7 +9,7 @@ export default function ProjectsParallax() {
     return (
         <div>
             <ParallaxLayer offset={3.05} speed={0.05} className="opacity-40">
-                <img src="/Cloud-1.svg" className="w-40 ml-96 md:w-56" />
+                <img src="/Cloud-1.svg" className="w-40 ml-20 md:ml-96 md:w-56" />
             </ParallaxLayer>
             <ParallaxLayer offset={3} speed={1} className="flex justify-center items-center">
                 <div className="relative bg-white rounded-md w-80 sm:w-96 mt-4 md:mt-0 z-10">
