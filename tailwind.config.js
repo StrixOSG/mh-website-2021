@@ -1,6 +1,7 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.tsx",
+    "./pages/secret-gaming-room.tsx",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
