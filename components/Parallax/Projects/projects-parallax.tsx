@@ -4,7 +4,8 @@ import React from "react";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import { IconPath } from '../../../constants/icon-path';
 import Project from './Project/project';
-import TreeBranchGreen from '../../Shared/Svgs/tree-branch-green';
+import SvgTreeBranchGreen from '../../Shared/Svgs/svg-tree-branch-green';
+import SvgOwlLookLeftHiddenTalon from '../../Shared/Svgs/owls/svg-owl-look-left-hidden-talon';
 
 export default function ProjectsParallax() {
     return (
@@ -45,9 +46,11 @@ export default function ProjectsParallax() {
                 </div>
                 <div className="absolute w-160 h-128 sm:h-112 z-0 mb-2">
                     <div className="absolute -top-10 right-10 sm:top-auto sm:bottom-24 sm:-right-32">
-                        <TreeBranchGreen></TreeBranchGreen>
+                        <SvgTreeBranchGreen></SvgTreeBranchGreen>
                     </div>
-                    <img className="absolute -top-20 right-28 w-24 sm:w-auto sm:top-auto sm:bottom-32 sm:right-2 sm:mb-1" src="/owls/owl-look-left-hidden-talon.svg" />
+                    <div className="absolute -top-20 right-28 w-24 sm:w-auto sm:top-auto sm:bottom-32 sm:right-2 sm:mb-1">
+                        <SvgOwlLookLeftHiddenTalon></SvgOwlLookLeftHiddenTalon>
+                    </div>
                 </div>
                 <Link href="/secret-gaming-room">
                     <a>

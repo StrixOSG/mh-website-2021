@@ -1,21 +1,10 @@
 import React from "react";
 import { motion, Variants } from "framer-motion"
 
-export default function TreeBranchGreen() {
+export default function SvgTreeBranchGreen() {
     const leafVariants: Variants = {
         visible: {
             rotate: 30,
-            transition: {
-                duration: 2,
-                repeat: Infinity,
-                repeatType: "reverse",
-                ease: "easeInOut"
-            }
-        }
-    };
-    const leafVariantsReverse: Variants = {
-        visible: {
-            rotate: -30,
             transition: {
                 duration: 2,
                 repeat: Infinity,
