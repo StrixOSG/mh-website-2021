@@ -12,35 +12,35 @@ export default function SkillsDevelopment() {
                 <div className="mt-6 text-2xl sm:text-3xl">
                     <p className="mb-4">Languages</p>
                     <div className="grid grid-cols-6">
-                        <Icon iconPath={IconPath.angular}></Icon>
-                        <Icon iconPath={IconPath.c}></Icon>
-                        <Icon iconPath={IconPath.cplusplus}></Icon>
-                        <Icon iconPath={IconPath.csharp}></Icon>
-                        <Icon iconPath={IconPath.css}></Icon>
-                        <Icon iconPath={IconPath.html}></Icon>
-                        <Icon iconPath={IconPath.javascript}></Icon>
-                        <Icon iconPath={IconPath.jquery}></Icon>
-                        <Icon iconPath={IconPath.laravel}></Icon>
-                        <Icon iconPath={IconPath.mysql}></Icon>
-                        <Icon iconPath={IconPath.nestjs}></Icon>
-                        <Icon iconPath={IconPath.nodejs}></Icon>
-                        <Icon iconPath={IconPath.php}></Icon>
-                        <Icon iconPath={IconPath.postgresql}></Icon>
-                        <Icon iconPath={IconPath.typescript}></Icon>
-                        <Icon iconPath={IconPath.react}></Icon>
-                        <Icon iconPath={IconPath.sass}></Icon>
+                        <Icon iconPath={IconPath.angular} toolTip="Angular"></Icon>
+                        <Icon iconPath={IconPath.c} toolTip="C"></Icon>
+                        <Icon iconPath={IconPath.cplusplus} toolTip="C++"></Icon>
+                        <Icon iconPath={IconPath.csharp} toolTip="C#"></Icon>
+                        <Icon iconPath={IconPath.css} toolTip="CSS"></Icon>
+                        <Icon iconPath={IconPath.html} toolTip="HTML"></Icon>
+                        <Icon iconPath={IconPath.javascript} toolTip="JavaScript"></Icon>
+                        <Icon iconPath={IconPath.jquery} toolTip="JQuery"></Icon>
+                        <Icon iconPath={IconPath.laravel} toolTip="Laravel"></Icon>
+                        <Icon iconPath={IconPath.mysql} toolTip="MySQL"></Icon>
+                        <Icon iconPath={IconPath.nestjs} toolTip="NestJS"></Icon>
+                        <Icon iconPath={IconPath.nodejs} toolTip="NodeJS"></Icon>
+                        <Icon iconPath={IconPath.php} toolTip="PHP"></Icon>
+                        <Icon iconPath={IconPath.postgresql} toolTip="PostgreSQL"></Icon>
+                        <Icon iconPath={IconPath.typescript} toolTip="TypeScript"></Icon>
+                        <Icon iconPath={IconPath.react} toolTip="React"></Icon>
+                        <Icon iconPath={IconPath.sass} toolTip="Sass"></Icon>
                     </div>
                 </div>
                 <div className="my-6 mb-4 text-2xl sm:text-3xl">
                     <p className="mb-4">Tools</p>
                     <div className="grid grid-cols-5 justify-center items-center">
-                        <Icon iconPath={IconPath.aws}></Icon>
-                        <Icon iconPath={IconPath.docker}></Icon>
-                        <Icon iconPath={IconPath.github}></Icon>
-                        <Icon iconPath={IconPath.heroku}></Icon>
-                        <Icon iconPath={IconPath.unity}></Icon>
-                        <Icon iconPath={IconPath.webpack}></Icon>
-                        <Icon iconPath={IconPath.yarn}></Icon>
+                        <Icon iconPath={IconPath.aws} toolTip="AWS"></Icon>
+                        <Icon iconPath={IconPath.docker} toolTip="Docker"></Icon>
+                        <Icon iconPath={IconPath.github} toolTip="GitHub"></Icon>
+                        <Icon iconPath={IconPath.heroku} toolTip="Heroku"></Icon>
+                        <Icon iconPath={IconPath.unity} toolTip="Unity"></Icon>
+                        <Icon iconPath={IconPath.webpack} toolTip="Webpack"></Icon>
+                        <Icon iconPath={IconPath.yarn} toolTip="Yarn"></Icon>
                     </div>
                 </div>
             </div>

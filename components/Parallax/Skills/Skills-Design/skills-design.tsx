@@ -12,13 +12,13 @@ export default function SkillsDesign() {
                 <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
                     <p className=" mb-4">Tools</p>
                     <div className="grid grid-cols-5">
-                        <Icon iconPath={IconPath.aftereffects}></Icon>
-                        <Icon iconPath={IconPath.illustrator}></Icon>
-                        <Icon iconPath={IconPath.photoshop}></Icon>
-                        <Icon iconPath={IconPath.premiere}></Icon>
-                        <Icon iconPath={IconPath.xd}></Icon>
-                        <Icon iconPath={IconPath.blender}></Icon>
-                        <Icon iconPath={IconPath.figma}></Icon>
+                        <Icon iconPath={IconPath.aftereffects} toolTip="Adobe After Effects"></Icon>
+                        <Icon iconPath={IconPath.illustrator} toolTip="Adobe Illustrator"></Icon>
+                        <Icon iconPath={IconPath.photoshop} toolTip="Adobe Photoshop"></Icon>
+                        <Icon iconPath={IconPath.premiere} toolTip="Adobe Premiere"></Icon>
+                        <Icon iconPath={IconPath.xd} toolTip="Adobe XD"></Icon>
+                        <Icon iconPath={IconPath.blender} toolTip="Blender"></Icon>
+                        <Icon iconPath={IconPath.figma} toolTip="Figma"></Icon>
                     </div>
                 </div>
                 <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
