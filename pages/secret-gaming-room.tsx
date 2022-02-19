@@ -23,12 +23,14 @@ export default function SecretGamingRoom() {
                     <React.Fragment>
                         <div className="absolute flex left-10 top-10 z-10 space-x-4">
                             <Link href="/">
-                                <a className="text-white text-2xl"><RiArrowLeftLine /></a>
+                                <a className="text-white text-3xl"><RiArrowLeftLine /></a>
                             </Link>
-                            <button className="text-white text-2xl" onClick={() => zoomIn()}><RiZoomInLine /></button>
-                            <button className="text-white text-2xl" onClick={() => zoomOut()}><RiZoomOutLine /></button>
-                            <button className="text-white text-2xl" onClick={() => resetTransform()}><RiRestartLine /></button>
-                            <button className="text-white text-2xl" onClick={() => infoModal()}><RiInformationLine /></button>
+                        </div>
+                        <div className="absolute flex left-1/2 bottom-5 transform -translate-x-1/2 space-x-10 z-10">
+                            <button className="text-white text-3xl" onClick={() => zoomIn()}><RiZoomInLine /></button>
+                            <button className="text-white text-3xl" onClick={() => zoomOut()}><RiZoomOutLine /></button>
+                            <button className="text-white text-3xl" onClick={() => resetTransform()}><RiRestartLine /></button>
+                            <button className="text-white text-3xl" onClick={() => infoModal()}><RiInformationLine /></button>
                         </div>
                         <TransformComponent wrapperClass={styles.zoomWidthAndHeight} contentClass={styles.zoomWidthAndHeight}>
                             <img src="/secret-gaming-room.svg" />

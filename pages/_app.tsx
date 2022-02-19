@@ -2,8 +2,10 @@ import '../styles/styles.css';
 import 'tailwindcss/tailwind.css';
 import Head from 'next/head';
 import Footer from '../components/Footer/footer';
+import { useRouter } from 'next/router';
 
 export default function MyApp({ Component, pageProps }) {
+    const { asPath } = useRouter();
     return (
         <div>
             <Head>
@@ -13,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
                 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet" />
             </Head>
             <Component {...pageProps} />
-            <Footer></Footer>
+            {asPath !== '/secret-gaming-room' && <Footer />}
             <style global jsx>{`
             html,
             body,
