@@ -3,9 +3,9 @@ import Link from 'next/link';
 import React from "react";
 import ScrollContainer from 'react-indiana-drag-scroll';
 import { IconPath } from '../../../constants/icon-path';
-import Project from './Project/project';
 import SvgTreeBranchGreen from '../../Shared/Svgs/svg-tree-branch-green';
 import SvgOwlLookLeftHiddenTalon from '../../Shared/Svgs/owls/svg-owl-look-left-hidden-talon';
+import DropdownItem from '../../Shared/UI/dropdown-item';
 
 export default function ProjectsParallax() {
     return (
@@ -20,27 +20,25 @@ export default function ProjectsParallax() {
                         <p className="font-display text-3xl sm:text-4xl">Projects & Work</p>
                         <p>Curious to learn more? Check out my GitHub in the bottom right or shoot me a message.</p>
                         <ScrollContainer className="w-full space-y-8 h-80 mt-6">
-                            <Project
+                            <DropdownItem
                                 iconPath={IconPath.memoryKPR}
                                 title='memoryKPR'
-                                learnMore={true}
-                                externalUrl='https://www.memorykpr.com/'
-                                description='Currently the Development Lead at memoryKPR! A website and app that ensures you are always only one click away from that special place dedicated to you capturing, crafting, reliving, and protecting your stories.'></Project>
-                            <Project
+                                url='https://www.memorykpr.com/'
+                                description='Currently the Development Lead at memoryKPR! A website and app that ensures you are always only one click away from that special place dedicated to you capturing, crafting, reliving, and protecting your stories.'></DropdownItem>
+                            <DropdownItem
                                 iconPath={IconPath.arGlasses}
                                 title='AR for Dementia'
-                                learnMore={true}
-                                externalUrl='https://dl.acm.org/doi/10.1145/3463914.3463918'
-                                description='Alongside my colleagues, I helped design an AR system called My Daily Routine (MDR) for people living with Dementia and their care partners. This was a part of my research work at the UofR and was published by ACM as a part of the ICVARS 2021 Conference, which I had the opportunity to present at virtually.'></Project>
-                            <Project
+                                url='https://dl.acm.org/doi/10.1145/3463914.3463918'
+                                description='Alongside my colleagues, I helped design an AR system called My Daily Routine (MDR) for people living with Dementia and their care partners. This was a part of my research work at the UofR and was published by ACM as a part of the ICVARS 2021 Conference, which I had the opportunity to present at virtually.'></DropdownItem>
+                            <DropdownItem
                                 iconPath={IconPath.urmaps}
                                 iconStyle="rounded-xl"
                                 title='URMaps'
-                                description='Mobile maps application developed for the University of Regina. Learned and implemented classical and advanced pathfinding techniques, indoor navigation, and AR'></Project>
-                            <Project
+                                description='Mobile maps application developed for the University of Regina. Learned and implemented classical and advanced pathfinding techniques, indoor navigation, and AR'></DropdownItem>
+                            <DropdownItem
                                 iconPath={IconPath.reddit}
                                 title='Reddit Redesign'
-                                description='Completed a UI redesign of Reddit based on best practices in my CS280 class with a friend. This was before Reddit had released their new UI and it turns out we were extremely close to what Reddit was thinking for their updated UI.'></Project>
+                                description='Completed a UI redesign of Reddit based on best practices in my CS280 class with a friend. This was before Reddit had released their new UI and it turns out we were extremely close to what Reddit was thinking for their updated UI.'></DropdownItem>
                         </ScrollContainer>
                     </div>
                 </div>

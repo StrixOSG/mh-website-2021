@@ -17,6 +17,7 @@ module.exports = {
         'cadet-blue': '#65AFA9',
         'cadet-blue-600': '#5BAAA3',
         'cadet-blue-700': '#54A29B',
+        'purple-200': '#7100E2',
         'purple': '#340068',
         'red-400': '#FF929D',
         'red': '#FF6978',
