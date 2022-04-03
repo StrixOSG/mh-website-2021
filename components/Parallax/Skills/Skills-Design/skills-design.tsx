@@ -11,12 +11,18 @@ export default function SkillsDesign() {
                 <p className="font-display text-center">Experience</p>
                 <div className="text-2xl mt-2 sm:mt-6 sm:text-3xl">
                     <p className=" mb-4">Tools</p>
-                    <div className="grid grid-cols-5">
+                    <div className="grid grid-cols-5 gap-2">
                         <Icon iconPath={IconPath.aftereffects} toolTip="Adobe After Effects"></Icon>
-                        <Icon iconPath={IconPath.illustrator} toolTip="Adobe Illustrator"></Icon>
-                        <Icon iconPath={IconPath.photoshop} toolTip="Adobe Photoshop"></Icon>
+                        <div className="shadow-md rounded-full">
+                            <Icon iconPath={IconPath.illustrator} toolTip="Adobe Illustrator - Used to build this site"></Icon>
+                        </div>
+                        <div className="shadow-md rounded-full">
+                            <Icon iconPath={IconPath.photoshop} toolTip="Adobe Photoshop - Used to build this site"></Icon>
+                        </div>
                         <Icon iconPath={IconPath.premiere} toolTip="Adobe Premiere"></Icon>
-                        <Icon iconPath={IconPath.xd} toolTip="Adobe XD"></Icon>
+                        <div className="shadow-md rounded-full">
+                            <Icon iconPath={IconPath.xd} toolTip="Adobe XD - Used to build this site"></Icon>
+                        </div>
                         <Icon iconPath={IconPath.blender} toolTip="Blender"></Icon>
                         <Icon iconPath={IconPath.figma} toolTip="Figma"></Icon>
                     </div>

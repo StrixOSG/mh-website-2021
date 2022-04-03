@@ -11,11 +11,13 @@ export enum IconPath {
     laravel = '/icons/logos/languages/laravel-plain.svg',
     mysql = '/icons/logos/languages/mysql-plain.svg',
     nestjs = '/icons/logos/languages/nestjs-plain.svg',
+    nextjs = '/icons/logos/languages/Nextjs-logo.svg',
     nodejs = '/icons/logos/languages/nodejs-plain.svg',
     php = '/icons/logos/languages/php-plain.svg',
     postgresql = '/icons/logos/languages/postgresql-plain.svg',
     react = '/icons/logos/languages/react-original.svg',
     sass = '/icons/logos/languages/sass-original.svg',
+    tailwind = '/icons/logos/languages/Tailwind-css-logo.svg',
     typescript = '/icons/logos/languages/typescript-plain.svg',
 
     //Tool Icons
