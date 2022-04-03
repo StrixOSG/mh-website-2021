@@ -14,14 +14,14 @@ export default function SkillsDesign() {
                     <div className="grid grid-cols-5 gap-2">
                         <Icon iconPath={IconPath.aftereffects} toolTip="Adobe After Effects"></Icon>
                         <div className="shadow-md rounded-full">
-                            <Icon iconPath={IconPath.illustrator} toolTip="Adobe Illustrator - Used to build this site"></Icon>
+                            <Icon iconPath={IconPath.illustrator} toolTip="Adobe Illustrator - Used to build this site 🎉"></Icon>
                         </div>
                         <div className="shadow-md rounded-full">
-                            <Icon iconPath={IconPath.photoshop} toolTip="Adobe Photoshop - Used to build this site"></Icon>
+                            <Icon iconPath={IconPath.photoshop} toolTip="Adobe Photoshop - Used to build this site 🎉"></Icon>
                         </div>
                         <Icon iconPath={IconPath.premiere} toolTip="Adobe Premiere"></Icon>
                         <div className="shadow-md rounded-full">
-                            <Icon iconPath={IconPath.xd} toolTip="Adobe XD - Used to build this site"></Icon>
+                            <Icon iconPath={IconPath.xd} toolTip="Adobe XD - Used to build this site 🎉"></Icon>
                         </div>
                         <Icon iconPath={IconPath.blender} toolTip="Blender"></Icon>
                         <Icon iconPath={IconPath.figma} toolTip="Figma"></Icon>
