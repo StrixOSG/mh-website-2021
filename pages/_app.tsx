@@ -15,7 +15,6 @@ export default function MyApp({ Component, pageProps }) {
                 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet" />
             </Head>
             <Component {...pageProps} />
-            {asPath !== '/secret-gaming-room' && <Footer />}
             <style global jsx>{`
             html,
             body,

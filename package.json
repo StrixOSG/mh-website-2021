@@ -8,7 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
     "@react-spring/parallax": "^9.0.0",
+    "@supabase/supabase-js": "^1.35.2",
+    "dayjs": "^1.11.3",
     "framer-motion": "^6.2.4",
     "next": "12",
     "react": "^17.0.2",

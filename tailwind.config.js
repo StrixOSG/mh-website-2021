@@ -26,6 +26,7 @@ module.exports = {
         'sky-blue': '#B1D4ED',
         'sky-blue-600': '#A5CDEA',
         'sky-blue-700': '#98C6E7',
+        'sunglow-yellow': '#FCCA46',
         'turquoise': '#B1EDE8'
       },
       width: {
