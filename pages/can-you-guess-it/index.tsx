@@ -5,16 +5,20 @@ import Link from 'next/link';
 import dayjs from 'dayjs';
 import { Listbox, Transition } from '@headlessui/react';
 import { CheckIcon, SelectorIcon } from '@heroicons/react/solid';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 export default function CanYouGuessIt() {
     const [session, setSession] = useState(null);
     let [selectedGenre, setSelectedGenre] = useState(null);
+    let [currentTrackPreview, setCurrentTrackPreview] = useState(null);
     const genres = [
         { name: 'Country', value: 'country' },
         { name: 'Pop', value: 'pop' },
         { name: 'Rock', value: 'rock' }
     ];
     let spotifyAccessKey: string;
+    let trackPreviews: string[] = [];
 
     useEffect(() => {
         setSession(supabase.auth.session())
@@ -41,7 +45,15 @@ export default function CanYouGuessIt() {
     }
 
     async function searchSpotify() {
-        console.log(await supabase.functions.invoke('spotify-search', { body: JSON.stringify({ token: spotifyAccessKey, genre: selectedGenre.value }) }));
+        const allTracks = await supabase.functions.invoke('spotify-search', { body: JSON.stringify({ token: spotifyAccessKey, genre: selectedGenre.value }) });
+        allTracks.data.tracks.items.forEach(track => {
+            if (track?.preview_url) {
+                trackPreviews.push(track.preview_url);
+            }
+        });
+        if (trackPreviews?.length > 0) {
+            setCurrentTrackPreview(trackPreviews.pop());
+        }
     }
 
     function spotifyTokenExpired(expiryTime: number): boolean {
@@ -112,13 +124,14 @@ export default function CanYouGuessIt() {
     return (
         <div className="bg-gray-900 w-full h-full">
             {!session ?? <Auth />}
+            <div className="absolute top-8 right-40 w-80">
+                {GenreListbox()}
+            </div>
             <div className="absolute top-10 right-10 text-white">
                 <Link href="/can-you-guess-it/profile">Profile</Link>
             </div>
-            <div className="flex justify-center items-center w-full h-full">
-                <div className="w-80">
-                    {GenreListbox()}
-                </div>
+            <div className="absolute bottom-0 left-0 w-full">
+                <AudioPlayer autoPlay volume={0.5} src={currentTrackPreview} />
             </div>
         </div>
     )
