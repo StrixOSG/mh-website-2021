@@ -52,7 +52,7 @@ function infoModal() {
         confirmButtonText: 'Close',
         html: <div>
             <p className="text-3xl">You found my secret hideaway 😎</p>
-            <p className="text-xl text-left mt-2">Have a look around and find the <b>12 names</b> I've hidden around the room. These are some of the people who've helped develop my passion for Computer Science</p>
+            <p className="text-xl text-left mt-2">Have a look around and find the <b>13 names</b> I've hidden around the room. These are some of the people who've helped develop my passion for Computer Science</p>
             <p className="text-small text-left mt-2"><b>Disclaimer:</b> For the best experience view this on a desktop or laptop screen. Mobile devices may not be able to display all the names</p>
         </div>
     })
