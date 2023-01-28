@@ -74,9 +74,10 @@ function hintsModal() {
             <DropdownItem title="Super duper Secret Hint #7" description='Bottom of the desktop computer 💻'></DropdownItem>
             <DropdownItem title="Okay I'm out Secret Hint #8" description='Middle pink poster on the wall upper right side'></DropdownItem>
             <DropdownItem title="Secret Hint #9" description="Bottom half of the book 📕 I'm holding near the spine"></DropdownItem>
-            <DropdownItem title="Forgot that one Secret Hint #10" description="Top left of the window near the border"></DropdownItem>
+            <DropdownItem title="Forgot this one Secret Hint #10" description="Top left of the window near the border"></DropdownItem>
             <DropdownItem title="Ultra Secret Hint #11" description="Computer monitor line"></DropdownItem>
-            <DropdownItem title="Okay bye 👋 Secret Hint #12" description="Top book 📕 on the shelf, left side"></DropdownItem>
+            <DropdownItem title="Secret Hint #12?" description="Lower part of the lamp 💡"></DropdownItem>
+            <DropdownItem title="Okay bye 👋 Secret Hint #13" description="Top book 📕 on the shelf, left side"></DropdownItem>
         </div>
     })
 }
