@@ -51,9 +51,7 @@ export default function ProjectsParallax() {
                     </div>
                 </div>
                 <Link href="/secret-gaming-room">
-                    <a>
-                        <img className="absolute -left-4 w-64 -bottom-10 sm:-bottom-16 sm:w-auto" src="/bitmoji/bitmoji-trapdoor.svg" />
-                    </a>
+                    <img className="absolute -left-4 w-64 -bottom-10 sm:-bottom-16 sm:w-auto" src="/bitmoji/bitmoji-trapdoor.svg" />
                 </Link>
             </ParallaxLayer>
         </div>

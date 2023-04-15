@@ -24,7 +24,7 @@ export default function SecretGamingRoom() {
                     <React.Fragment>
                         <div className="absolute flex left-10 top-10 z-10 space-x-4 p-2 rounded-full bg-black/30">
                             <Link href="/">
-                                <a className="text-white text-3xl"><RiArrowLeftLine /></a>
+                                <span className="text-white text-3xl"><RiArrowLeftLine /></span>
                             </Link>
                         </div>
                         <div className="absolute flex right-10 top-10 z-10 space-x-4">

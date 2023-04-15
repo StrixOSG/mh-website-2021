@@ -9,12 +9,12 @@ export default function DropdownItem({ iconPath = null, title = 'test', descript
     if (!expanded) {
         return (
             <button onClick={() => setExpanded(true)} className="grid place-items-start w-full grid-cols-4 sm:grid-cols-6">
-                {iconPath !== null && <Image className={`${iconStyle} col-span-1`} src={iconPath} width={40} height={40}></Image>}
+                {iconPath !== null && <Image className={`${iconStyle} col-span-1`} src={iconPath} width={40} height={40} alt="icon"></Image>}
                 <div className={"flex flex-col justify-center w-full " + (iconPath === null ? 'col-span-4 sm:col-span-6' : 'col-span-3 sm:col-span-5')}>
                     <div className="flex items-center">
                         <p className="text-xl text-left sm:text-2xl">{title}</p>
                         <span className="flex ml-auto">
-                            <Image src={IconPath.arrowRight} width={40} height={40}></Image>
+                            <Image src={IconPath.arrowRight} width={40} height={40} alt="toggle dropdown"></Image>
                         </span>
                     </div>
                 </div>
@@ -23,12 +23,12 @@ export default function DropdownItem({ iconPath = null, title = 'test', descript
     } else {
         return (
             <button onClick={() => setExpanded(false)} className="grid place-items-start w-full grid-cols-4 sm:grid-cols-6">
-                {iconPath !== null && <Image className={`col-span-1 ${iconStyle}`} src={iconPath} width={40} height={40}></Image>}
+                {iconPath !== null && <Image className={`col-span-1 ${iconStyle}`} src={iconPath} width={40} height={40} alt="icon"></Image>}
                 <div className={"flex flex-col justify-center w-full " + (iconPath === null ? 'col-span-4 sm:col-span-6' : 'col-span-3 sm:col-span-5')}>
                     <div className="flex items-center">
                         <p className="text-xl sm:text-2xl">{title}</p>
                         <span className="flex ml-auto" onClick={() => setExpanded(false)}>
-                            <Image src={IconPath.arrowDown} width={40} height={40}></Image>
+                            <Image src={IconPath.arrowDown} width={40} height={40} alt="toggle dropdown"></Image>
                         </span>
                     </div>
                     <p className="text-left mt-2">

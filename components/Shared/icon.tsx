@@ -10,7 +10,7 @@ const ReactTooltip = dynamic(() => import("react-tooltip"), {
 export default function Icon({ iconPath, width = 30, height = 30, toolTip = '' }) {
     return (
         <div className="p-3 flex justify-center items-center" data-tip={toolTip}>
-            <Image src={iconPath} width={width + 'rem'} height={height + 'rem'}></Image>
+            <Image src={iconPath} width={width} height={height} alt="icon"></Image>
             <ReactTooltip className={styles.toolTip} place="top" type="dark" effect="float" />
         </div>
     );
